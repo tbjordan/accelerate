@@ -15,5 +15,22 @@
 /*body styles*/
 
 body {
-	background: red;
+	background: ;
 }
+
+/*end body styles*/
+
+/*homepage styles*/
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+	background: #45ac9d;
+
+}
+/*end homepage styles*/
