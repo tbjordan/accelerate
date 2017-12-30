@@ -43,7 +43,7 @@ get_header(); ?>
               echo wp_get_attachment_image( $image_2, $size );
             }?>
             <?php if($image_3){
-              echo wp_get_attachment_image( $image_1, $size );
+              echo wp_get_attachment_image( $image_3, $size );
             }?>
           </div>
         </article>
