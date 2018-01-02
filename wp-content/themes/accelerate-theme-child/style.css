@@ -105,6 +105,9 @@ ul.homepage-featured-work {
 	margin: 1em auto;
 }
 
+.tweets li a{
+	color: #45ac9d;
+}
 .widget-title a {
 	margin: 2em 0 .5em;
 	font-size: 1.5em;
