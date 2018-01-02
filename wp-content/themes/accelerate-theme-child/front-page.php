@@ -56,7 +56,17 @@ get_header(); ?>
 	     <?php endwhile; ?>
 	    <?php wp_reset_query(); ?>
 	   </div>
+		 <div class="twitter-feed">
+			 <h4>Recent Posts</h4>
+	 		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+	 		<div id="secondary" class="widget-area" role="complementary">
+		 		<?php dynamic_sidebar( 'sidebar-2' ); ?>
+	 		</div>
+	 		<a class="read-more-link" href="http://twitter.com">Follow Us &rsaquo;</a>
+ 		</div>
+ 			<?php endif; ?>
 	 </div>
 	</section>
+
 
 <?php get_footer(); ?>
